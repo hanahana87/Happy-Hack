@@ -1,131 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Huck</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Kaisei+Decol:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="slick-theme.css">
-    <link rel="stylesheet" href="slick.css">
-    <link rel="stylesheet" href="style.css">
-    
-    <!-- 画面切り替え -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="js/jquery.bgswitcher.js"></script>
-    <script src="js/main.js"></script>
-
-    <script src="/js/slick.min.js"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
-
-
+  <meta charset="utf-8">
+  <title>Happy Hack</title>
+  <link rel="stylesheet" href="slick.css">
+  <link rel="stylesheet" href="slick-theme.css">
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
+
 <body>
-    <header class="bg-swicher">
-        <nav>
-            <ul>
-                <li><a href="#introduction">Introduction</a></li>
-                <li><a href="#courses">Courses</a></li>
-                <li><a href="#images">Images</a></li>
-                <li><a href="#access">Access</a></li>
-            </ul>
-        </nav>
-
-        <div class="title">
-            <h1>
-                <img src="images/logo.png" alt="">
-                <p>We are Web Designers.</p>
-            </h1>
+  <header>
+    <div class="logo">
+      <h1><img src="images/logo.png" alt=""></h1>
+      <p>We are Web Designers.</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html#introduction">Introduction</a></li>
+        <li><a href="index.html#courses">Courses</a></li>
+        <li><a href="index.html#slick">Images</a></li>
+        <li><a href="index.html#access">Access</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="introduction" class="fuwat">
+      <h2>Introduction</h2>
+      <div class="intro_detail">
+        <div class="intro_content_left">
+          <img src="images/introduction_001.jpg" alt="">
         </div>
-    </header>
-
-    <section id="introduction" class="introduction">
-        <div class="fadein">
-            <h2>Introduction</h2>
-            <div class="contents">
-                <img src="images/introduction_001.jpg" alt="">
-                <div class="content-left">
-                    <p>
-                        Happy Hackはいまをときめく若者がITを活用したものづくりに取り組める環境を提供しています。<br>
-                        特に、Webデザイン領域のプログラミングを学習している生徒が一番積極的に活動しています。<br>
-                        誰でも最初は初心者。それを一番知っている我々がプログラミングへの第一歩を踏み出すお手伝いをさせていただきます。
-                    </p>
-                    <a href="https://www.instagram.com/hana87ka/" class="member-1">会員登録</a>
-                </div>
-            </div>
-            <div class="contents">
-                <div class="content-right">
-                    <p>
-                        Happy Hackでは「楽しさ」と「真剣さ」をモットーにプログラミングを学びます。コースは全部で7つ準備をしています。<br>
-                        WebデザインからWebサービス、3DゲームやiPhoneアプリまで幅広くお楽しみいただけます。<br>
-                        自分の想いをカタチにして発信することをぜひこの場で体験してみてください。世界が変わって見えるかもしれません。
-                    </p>
-                    <a href="https://www.instagram.com/hana87ka/" class="member-2">会員登録</a>
-                </div>
-                <img src="images/introduction_002.jpg" alt="">
-            </div>
+        <div class="intro_content_right">
+          <p>
+            Happy Hackはいまをときめく若者がITを活用したものづくりに取り組める環境を提供しています。<br>
+            特に、Webデザイン領域のプログラミングを学習している生徒が一番積極的に活動しています。<br>
+            誰でも最初は初心者。それを一番知っている我々がプログラミングへの第一歩を踏み出すお手伝いをさせていただきます。
+          </p>
+          <a href="#introduction">会員登録</a>
         </div>
+      </div>
+      <div class="intro_detail intro_detail2" class="fuwat">
+        <div class="intro_content_left">
+          <p>
+            Happy Hackでは「楽しさ」と「真剣さ」をモットーにプログラミングを学びます。コースは全部で7つ準備をしています。<br>
+            WebデザインからWebサービス、3DゲームやiPhoneアプリまで幅広くお楽しみいただけます。<br>
+            自分の想いをカタチにして発信することをぜひこの場で体験してみてください。世界が変わって見えるかもしれません。
+          </p>
+          <a href="#introduction">会員登録</a>
+        </div>
+        <div class="intro_content_right">
+          <img src="images/introduction_002.jpg" alt="">
+        </div>
+      </div>
     </section>
-
-    <canvas class="background"></canvas>
-
-    <section id="courses">
-        <div class="fadein">
-            <h2>Courses</h2>
-            <div class="courses">
-                <div class="course">
-                   <img src="images/html.png" alt="">
-                   <p>HTMLコース</p>
-                   <a href="" class="html">このコースを受ける</a>
-               </div>
-               <div class="course"> 
-                   <img src="images/css.png" alt="">
-                   <p>cssコース</p>
-                   <a href="" class="css">このコースを受ける</a>
-               </div>
-               <div class="course">
-                   <img src="images/unity.png" alt="">
-                   <p>Unityコース</p>
-                   <a href="" class="unity">このコースを受ける</a>
-               </div>
-               <div class="course">
-                   <img src="images/ruby.png" alt="">
-                   <p>Rubyコース</p>
-                   <a href="" class="ruby">このコースを受ける</a>
-               </div>
-           </div>
-           <div class="courses">
-               <div class="course">
-                  <img src="images/js.png" alt="">
-                  <p>JavaScriptコース</p>
-                  <a href="" class="javascript">このコースを受ける</a>
-              </div>
-              <div class="course">
-                  <img src="images/swift.png" alt="">
-                  <p>Swiftコース</p>
-                  <a href="" class="swift">このコースを受ける</a>
-              </div>
-              <div class="course">
-                  <img src="images/go.png" alt="">
-                  <p>Goコース</p>
-                  <a href="" class="go">このコースを受ける</a>
-              </div>
+    <section id="courses" class="fuwat">
+      <div id="particles-js"></div>
+      <h2>Courses</h2>
+      <div class="course">
+        <div class="course-container">
+          <div class="course_info" id="html">
+            <div class="course_img">
+              <img src="./images/html.png" alt="">
             </div>
+            <h3>HTMLコース</h3>
+            <a href="#courses" style="background-color: #F16529;">このコースを受ける</a>
+          </div>
+          <div class="course_info" id="css">
+            <div class="course_img">
+              <img src="./images/css.png" alt="">
+            </div>
+            <h3>CSSコース</h3>
+            <a href="#courses" style="background-color: #29A9DF;">このコースを受ける</a>
+          </div>
+          <div class="course_info" id="unity">
+            <div class="course_img">
+              <img src="./images/unity.png" alt="">
+            </div>
+            <h3>Unityコース</h3>
+            <a href="#courses" style="background-color: #333333;">このコースを受ける</a>
+          </div>
+          <div class="course_info" id="ruby">
+            <div class="course_img">
+              <img src="./images/ruby.png" alt="">
+            </div>
+            <h3>Rubyコース</h3>
+            <a href="#courses" style="background-color: #FF5252;">このコースを受ける</a>
+          </div>
+          <div class="course_info" id="js">
+            <div class="course_img">
+              <img src="./images/js.png" alt="">
+            </div>
+            <h3>JavaScriptコース</h3>
+            <a href="#courses" style="background-color: #FED700;">このコースを受ける</a>
+          </div>
+          <div class="course_info" id="swift">
+            <div class="course_img">
+              <img src="./images/swift.png" alt="">
+            </div>
+            <h3>Swiftコース</h3>
+            <a href="#courses" style="background-color: #FE7536;">このコースを受ける</a>
+          </div>
+          <div class="course_info" id="go">
+            <div class="course_img">
+              <img src="./images/go.png" alt="">
+            </div>
+            <h3>Goコース</h3>
+            <a href="#courses" style="background-color: #73CEDD;">このコースを受ける</a>
+          </div>
         </div>
-
-        
-
- 
-
-        
+      </div>
     </section>
 
     <section id="images" class="images">
-        <div class="fadein">
+        <div class="fuwat">
             <h2>Images</h2>
             <div class="slider">
                 <div>
@@ -147,17 +136,24 @@
         </div>
         
     </section>
-
-
-    <section id="access">
-        <h2>Access</h2>
-        <div class="access-wrap">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12969.713168093354!2d139.72299651925158!3d35.64181813325285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ba615b517fd%3A0xd3c27b8833c1cac4!2zTGlmZSBpcyBUZWNoICEgU2Nob29sIOeZvemHkemrmOi8quacrOagoQ!5e0!3m2!1sja!2sjp!4v1662781930153!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>  
+    <section id="access" class="fuwat">
+      <h2>Access</h2>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.313128775983!2d135.49025991587453!3d34.6972812804354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6f359905ed7%3A0x9fec1659611f776f!2zTGlmZSBpcyBUZWNoISDlpKfpmKrjgqrjg5XjgqPjgrk!5e0!3m2!1sja!2sjp!4v1550438314500" width="600" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
     </section>
-
-    <footer>
-        <p>&copy;  2019 Happy Hack Inc.</p>
-    </footer>
+  </main>
+  <footer>
+    &copy; 2019 Happy Hack Inc.
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="./js/jquery.bgswitcher.js"></script>
+  <script src="./js/bgswitcher-settings.js"></script>
+  <script src="./js/fuwat-settings.js"></script>
+  <script src="./js/particles.min.js"></script>
+  <script src="./js/particles-settings.js"></script>
+  <script src="./js/slick.min.js"></script>
+  <script src="./js/slick-settings.js"></script>
 </body>
+
 </html>
